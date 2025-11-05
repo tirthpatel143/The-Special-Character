@@ -1,18 +1,20 @@
-
-from collections import Counter
+from collections import defaultdict
 
 def getTopSellingProducts(orders, n):
-    product_counts = Counter()
+
+    product_sales = defaultdict(int)
     for order in orders:
-        product_counts[order["product_id"]] += order["quantity"]
+        product_sales[order['product_id']] += order['quantity']
     
-sorted_products = sorted(product_counts.items(), key=lambda x: (-x[1], x[0]))
-    
-    if not sorted_products:
-        return []
-    if n < len(sorted_products):
-        cutoff_qty = sorted_products[n-1][1]
-        result = [(pid, qty) for pid, qty in sorted_products if qty >= cutoff_qty]
-    else:
-        result = sorted_products
-    return result
+
+    sorted_products = sorted(product_sales.items(), key=lambda x: -x[1])
+
+    top_products = []
+    last_qty = None
+    for i, (prod_id, qty) in enumerate(sorted_products):
+        if i < n or qty == last_qty:
+            top_products.append({'product_id': prod_id, 'quantity_sold': qty})
+            last_qty = qty
+        else:
+            break
+    return top_products
