@@ -1,0 +1,356 @@
+{
+  "orders": [
+    {
+      "orderId": "ORD001",
+      "customerId": "CUST001",
+      "products": [
+        { "productId": "P001", "quantity": 2, "price": 29.99 },
+        { "productId": "P002", "quantity": 1, "price": 49.99 }
+      ],
+      "orderDate": "2024-01-15",
+      "totalAmount": 109.97
+    },
+    {
+      "orderId": "ORD002",
+      "customerId": "CUST002",
+      "products": [
+        { "productId": "P003", "quantity": 3, "price": 79.99 },
+        { "productId": "P004", "quantity": 2, "price": 99.99 }
+      ],
+      "orderDate": "2024-01-20",
+      "totalAmount": 439.95
+    },
+    {
+      "orderId": "ORD003",
+      "customerId": "CUST003",
+      "products": [
+        { "productId": "P001", "quantity": 5, "price": 29.99 },
+        { "productId": "P005", "quantity": 1, "price": 199.99 }
+      ],
+      "orderDate": "2024-02-05",
+      "totalAmount": 349.94
+    },
+ {
+      "orderId": "ORD004",
+      "customerId": "CUST001",
+      "products": [
+        { "productId": "P006", "quantity": 4, "price": 149.99 },
+        { "productId": "P007", "quantity": 2, "price": 89.99 }
+      ],
+      "orderDate": "2024-02-10",
+      "totalAmount": 779.94
+    },
+    {
+      "orderId": "ORD005",
+      "customerId": "CUST004",
+      "products": [
+        { "productId": "P008", "quantity": 1, "price": 1299.99 },
+        { "productId": "P009", "quantity": 2, "price": 299.99 }
+      ],
+      "orderDate": "2024-02-15",
+      "totalAmount": 1899.97
+    },
+    {
+      "orderId": "ORD006",
+      "customerId": "CUST002",
+      "products": [
+        { "productId": "P010", "quantity": 3, "price": 59.99 },
+        { "productId": "P011", "quantity": 1, "price": 39.99 }
+      ],
+      "orderDate": "2024-03-01",
+      "totalAmount": 219.96
+    },
+    {
+      "orderId": "ORD007",
+      "customerId": "CUST005",
+      "products": [
+        { "productId": "P012", "quantity": 2, "price": 899.99 },
+        { "productId": "P013", "quantity": 1, "price": 499.99 }
+      ],
+      "orderDate": "2024-03-05",
+      "totalAmount": 2299.97
+    },
+    {
+      "orderId": "ORD008",
+      "customerId": "CUST003",
+      "products": [
+        { "productId": "P001", "quantity": 10, "price": 29.99 },
+        { "productId": "P014", "quantity": 2, "price": 79.99 }
+      ],
+      "orderDate": "2024-03-10",
+      "totalAmount": 459.78
+    },
+    {
+      "orderId": "ORD009",
+      "customerId": "CUST001",
+      "products": [
+        { "productId": "P015", "quantity": 1, "price": 2499.99 },
+        { "productId": "P016", "quantity": 3, "price": 199.99 }
+      ],
+      "orderDate": "2024-03-15",
+      "totalAmount": 3099.96
+    },
+    {
+      "orderId": "ORD010",
+      "customerId": "CUST006",
+      "products": [
+        { "productId": "P017", "quantity": 1, "price": 49.99 },
+        { "productId": "P018", "quantity": 1, "price": 29.99 }
+      ],
+      "orderDate": "2024-03-20",
+      "totalAmount": 79.98
+    },
+    {
+      "orderId": "ORD011",
+      "customerId": "CUST004",
+      "products": [
+        { "productId": "P019", "quantity": 2, "price": 599.99 },
+        { "productId": "P020", "quantity": 1, "price": 399.99 }
+      ],
+      "orderDate": "2024-04-01",
+      "totalAmount": 1599.97
+    },
+    {
+      "orderId": "ORD012",
+      "customerId": "CUST005",
+      "products": [
+        { "productId": "P021", "quantity": 1, "price": 1299.99 },
+        { "productId": "P022", "quantity": 2, "price": 349.99 }
+      ],
+      "orderDate": "2024-04-05",
+      "totalAmount": 1999.97
+    },
+    {
+      "orderId": "ORD013",
+      "customerId": "CUST002",
+      "products": [
+        { "productId": "P001", "quantity": 8, "price": 29.99 },
+        { "productId": "P023", "quantity": 1, "price": 89.99 }
+      ],
+      "orderDate": "2024-04-10",
+      "totalAmount": 329.91
+    },
+    {
+      "orderId": "ORD014",
+      "customerId": "CUST007",
+      "products": [
+        { "productId": "P024", "quantity": 1, "price": 199.99 },
+        { "productId": "P025", "quantity": 2, "price": 99.99 }
+      ],
+      "orderDate": "2024-04-15",
+      "totalAmount": 399.97
+    },
+    {
+      "orderId": "ORD015",
+      "customerId": "CUST001",
+      "products": [
+        { "productId": "P026", "quantity": 1, "price": 1599.99 },
+        { "productId": "P027", "quantity": 1, "price": 799.99 }
+      ],
+      "orderDate": "2024-05-01",
+      "totalAmount": 2399.98
+    }
+  ],
+  "products": [
+    {
+      "productId": "P001",
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 29.99
+    },
+    {
+      "productId": "P002",
+      "name": "Mechanical Keyboard",
+      "category": "Electronics",
+      "price": 49.99
+    },
+    {
+      "productId": "P003",
+      "name": "Gaming Headset",
+      "category": "Electronics",
+      "price": 79.99
+    },
+    {
+      "productId": "P004",
+      "name": "Monitor Stand",
+      "category": "Electronics",
+      "price": 99.99
+    },
+    {
+      "productId": "P005",
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 199.99
+    },
+    {
+      "productId": "P006",
+      "name": "Laptop Sleeve",
+      "category": "Accessories",
+      "price": 149.99
+    },
+    {
+      "productId": "P007",
+      "name": "USB-C Hub",
+      "category": "Accessories",
+      "price": 89.99
+    },
+    {
+      "productId": "P008",
+      "name": "Gaming Laptop",
+      "category": "Electronics",
+      "price": 1299.99
+    },
+    {
+      "productId": "P009",
+      "name": "External SSD",
+      "category": "Electronics",
+      "price": 299.99
+    },
+    {
+      "productId": "P010",
+      "name": "Wireless Earbuds",
+      "category": "Electronics",
+      "price": 59.99
+    },
+    {
+      "productId": "P011",
+      "name": "Phone Case",
+      "category": "Accessories",
+      "price": 39.99
+    },
+    {
+      "productId": "P012",
+      "name": "Gaming Desktop",
+      "category": "Electronics",
+      "price": 899.99
+    },
+    {
+      "productId": "P013",
+      "name": "Graphics Card",
+      "category": "Electronics",
+      "price": 499.99
+    },
+    {
+      "productId": "P014",
+      "name": "Webcam HD",
+      "category": "Electronics",
+      "price": 79.99
+    },
+    {
+      "productId": "P015",
+      "name": "Ultra-wide Monitor",
+      "category": "Electronics",
+      "price": 2499.99
+    },
+    {
+      "productId": "P016",
+      "name": "Desk Organizer",
+      "category": "Accessories",
+      "price": 199.99
+    },
+    {
+      "productId": "P017",
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "price": 49.99
+    },
+    {
+      "productId": "P018",
+      "name": "Mouse Pad",
+      "category": "Accessories",
+      "price": 29.99
+    },
+    {
+      "productId": "P019",
+      "name": "Tablet Pro",
+      "category": "Electronics",
+      "price": 599.99
+    },
+    {
+      "productId": "P020",
+      "name": "Stylus Pen",
+      "category": "Accessories",
+      "price": 399.99
+    },
+    {
+      "productId": "P021",
+      "name": "4K Monitor",
+      "category": "Electronics",
+      "price": 1299.99
+    },
+    {
+      "productId": "P022",
+      "name": "Monitor Mount",
+      "category": "Accessories",
+      "price": 349.99
+    },
+    {
+      "productId": "P023",
+      "name": "Cable Organizer",
+      "category": "Accessories",
+      "price": 89.99
+    },
+    {
+      "productId": "P024",
+      "name": "RGB Keyboard",
+      "category": "Electronics",
+      "price": 199.99
+    },
+    {
+      "productId": "P025",
+      "name": "Laptop Stand",
+      "category": "Accessories",
+      "price": 99.99
+    },
+    {
+      "productId": "P026",
+      "name": "Workstation Laptop",
+      "category": "Electronics",
+      "price": 1599.99
+    },
+    {
+      "productId": "P027",
+      "name": "Docking Station",
+      "category": "Accessories",
+      "price": 799.99
+    }
+  ],
+  "customers": [
+    {
+      "customerId": "CUST001",
+      "name": "John Smith",
+      "email": "john.smith@email.com"
+    },
+    {
+      "customerId": "CUST002",
+      "name": "Emily Johnson",
+      "email": "emily.j@email.com"
+    },
+    {
+      "customerId": "CUST003",
+      "name": "Michael Brown",
+      "email": "michael.b@email.com"
+    },
+    {
+      "customerId": "CUST004",
+      "name": "Sarah Davis",
+      "email": "sarah.d@email.com"
+    },
+    {
+      "customerId": "CUST005",
+      "name": "David Wilson",
+      "email": "david.w@email.com"
+    },
+    {
+      "customerId": "CUST006",
+      "name": "Lisa Anderson",
+      "email": "lisa.a@email.com"
+    },
+    {
+      "customerId": "CUST007",
+      "name": "Robert Taylor",
+      "email": "robert.t@email.com"
+    }
+  ]
+}
+
