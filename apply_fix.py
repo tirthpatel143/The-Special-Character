@@ -13,7 +13,8 @@ def replace_line(file_path, pattern, replacement):
         f.writelines(new_lines)
 
 if __name__ == "__main__":
-    layout_path = "src/app/layout.tsx"
+    import os
+    layout_path = os.path.join(os.path.dirname(__file__), "src/app/layout.tsx")
     # Replace title
     replace_line(layout_path, r"<title>.*</title>", "    <title>The Special Character – Digital Product Engineering & Enterprise Software Partner</title>")
     # Replace meta description
@@ -24,4 +25,8 @@ if __name__ == "__main__":
     replace_line(layout_path, r"<meta property=\"og:title\" content=\".*\" />", "    <meta property=\"og:title\" content=\"The Special Character – Digital Product Engineering & Enterprise Software Partner\" />")
     # Replace twitter:title
     replace_line(layout_path, r"<meta name=\"twitter:title\" content=\".*\" />", "    <meta name=\"twitter:title\" content=\"The Special Character – Digital Product Engineering & Enterprise Software Partner\" />")
+    # Replace og:url
+    replace_line(layout_path, r"<meta property=\"og:url\" content=\".*\" />", "    <meta property=\"og:url\" content=\"https://thespecialcharacter.com/\" />")
+    # Replace canonical link
+    replace_line(layout_path, r"<link rel=\"canonical\" href=\".*\" />", "    <link rel=\"canonical\" href=\"https://thespecialcharacter.com/\" />")
     print('SEO fixes applied')

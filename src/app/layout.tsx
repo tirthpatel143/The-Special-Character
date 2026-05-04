@@ -10,8 +10,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <meta property="og:title" content="The Special Character – Digital Product Engineering & Enterprise Software Partner" />
         <meta property="og:description" content="Elite AI and web development solutions for startups and enterprises, guaranteeing rapid delivery and ROI growth." />
         <meta property="og:type" content="website" />
-<meta property="og:url" content="https://medusajs.com/" />
-    <link rel="canonical" href="https://medusajs.com/" />
+    <meta property="og:url" content="https://thespecialcharacter.com/" />
+    <link rel="canonical" href="https://thespecialcharacter.com/" />
         <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="The Special Character – Digital Product Engineering & Enterprise Software Partner" />
         <meta name="twitter:description" content="Elite AI and web development solutions for startups and enterprises, guaranteeing rapid delivery and ROI growth." />
