@@ -16,7 +16,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="The Special Character – Digital Product Engineering & Enterprise Software Partner" />
         <meta name="twitter:description" content="Elite AI and web development solutions for startups and enterprises, guaranteeing rapid delivery and ROI growth." />
-      </head>
+        <title>Medusa - A Commerce Platform for Developers and Agents | Expert Solutions & Services</title>
+</head>
       <body>
         <h1>The Special Character – Digital Product Engineering & Enterprise Software Partner</h1>
         {children}
