@@ -5,8 +5,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <meta charset="UTF-8" />
-    <title>The Special Character – Digital Product Engineering & Enterprise Software Partner</title>
-    <meta name="description" content="We help technology, e‑commerce, SaaS, and professional services companies streamline processes and accelerate growth with expert digital product engineering and enterprise software solutions." />
+    <title>Digital Product Engineering & Software | The Special Character</title>
+    <meta name="description" content="We help tech, e‑commerce, SaaS and professional services streamline processes and accelerate growth with expert digital product engineering." />
     <meta name="author" content="Tirth Patel" />
     <script type="application/ld+json">
     {
@@ -29,14 +29,28 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       ]
     }
     </script>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://thespecialcharacter.com/"
+            }
+          ]
+        }
+        </script>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:title" content="The Special Character – Digital Product Engineering & Enterprise Software Partner" />
+    <meta property="og:title" content="Digital Product Engineering & Software | The Special Character" />
         <meta property="og:description" content="Elite AI and web development solutions for startups and enterprises, guaranteeing rapid delivery and ROI growth." />
         <meta property="og:type" content="website" />
     <meta property="og:url" content="https://thespecialcharacter.com/" />
     <link rel="canonical" href="https://thespecialcharacter.com/" />
         <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="The Special Character – Digital Product Engineering & Enterprise Software Partner" />
+    <meta name="twitter:title" content="Digital Product Engineering & Software | The Special Character" />
         <meta name="twitter:description" content="Elite AI and web development solutions for startups and enterprises, guaranteeing rapid delivery and ROI growth." />
         
 </head>
