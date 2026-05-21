@@ -5,7 +5,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <html lang="en">
       <head>
         <meta charset="UTF-8" />
-    <title>Digital Product Engineering & Software | The Special Character</title>
+    <title>The Special Character | Leading IT Solutions & Digital Transformation</title>
     <meta name="description" content="We help tech, e‑commerce, SaaS and professional services streamline processes and accelerate growth with expert digital product engineering." />
     <meta name="author" content="Tirth Patel" />
     <script type="application/ld+json">
