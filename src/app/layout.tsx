@@ -4,9 +4,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3JX6FHZFSD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-3JX6FHZFSD');
+  </script>
         <meta charset="UTF-8" />
-    <title>The Special Character | Leading IT Solutions & Digital Transformation</title>
-    <meta name="description" content="We help tech, e‑commerce, SaaS and professional services streamline processes and accelerate growth with expert digital product engineering." />
+    <title>Mobile App Development Agency – iOS, Android & Web | The Special Character</title>
+    <meta name="description" content="Full‑stack mobile app development agency delivering fast, scalable solutions for startups and enterprises. Get a free consultation now." />
     <meta name="author" content="Tirth Patel" />
     <script type="application/ld+json">
     {
