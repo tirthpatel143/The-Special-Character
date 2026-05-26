@@ -13,8 +13,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     gtag('config', 'G-3JX6FHZFSD');
   </script>
         <meta charset="UTF-8" />
-    <title>Mobile App Development Agency – iOS, Android & Web | The Special Character</title>
-    <meta name="description" content="Full‑stack mobile app development agency delivering fast, scalable solutions for startups and enterprises. Get a free consultation now." />
+    <title>Enterprise Mobile App Development Partner – The Special Character | iOS & Android Experts</title>
+    <meta name="description" content="Looking for an enterprise mobile app development partner? The Special Character builds scalable iOS & Android apps with fast delivery and measurable growth. Get a custom quote now." />
     <meta name="author" content="Tirth Patel" />
     <script type="application/ld+json">
     {
